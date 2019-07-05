@@ -1,0 +1,11 @@
+/*================================
+   CalculatorAfterThrowing.java
+   - After Throwing Advice 구성
+================================*/
+
+package com.test.spr;
+
+public class CalculatorAfterThrowing implements 
+{
+
+}

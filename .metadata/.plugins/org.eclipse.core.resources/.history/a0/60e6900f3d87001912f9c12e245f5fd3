@@ -1,0 +1,50 @@
+/*===================
+   RecordImpl1.java
+   - 클래스
+==================*/
+
+package com.test.spr;
+
+public class RecordImpl1 implements Record
+{
+	private String name, tel, addr;
+	
+	@Override
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	@Override
+	public String getName()
+	{
+		return name;
+	}
+
+	@Override
+	public void setTel(String tel)
+	{
+		this.tel = tel;
+	}
+
+	@Override
+	public String getTel()
+	{
+		return tel;
+	}
+
+	@Override
+	public void setAddr(String addr)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getAddr()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

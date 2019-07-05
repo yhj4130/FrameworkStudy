@@ -1,0 +1,10 @@
+/*========================
+ 
+========================*/
+
+package com.test.spr;
+
+public interface Record
+{
+
+}

@@ -1,0 +1,48 @@
+package com.test.spr;
+
+public class RecordImpl implements Record
+{
+	private String name, tel, addr;
+	
+	@Override
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	@Override
+	public String getName()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setTel(String tel)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getTel()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setAddr(String addr)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getAddr()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
